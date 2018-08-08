@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+url: https://github.com/zhangxx1990/JS.git
+root: /
+include: [_coverpage.md, _sidebar.md]
+
+theme: jekyll-theme-slate

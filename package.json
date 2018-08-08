@@ -1,0 +1,25 @@
+{
+  "name": "Js-tutorial",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangxx1990/Html5.git"
+  },
+  "keywords": [
+    "JS",
+    "WebAPI",
+    "JS.WebAPI"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/zhangxx1990/Html5.git"
+}

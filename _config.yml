@@ -2,4 +2,4 @@ url: https://github.com/zhangxx1990/JS.git
 root: /
 include: [_coverpage.md, _sidebar.md]
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman

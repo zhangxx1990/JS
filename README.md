@@ -1,4 +1,4 @@
-# JS笔记
+## JS笔记
 
 > 更新日期：{docsify-updated}
 

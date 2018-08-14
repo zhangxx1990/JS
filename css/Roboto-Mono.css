@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Mono Light'), local('RobotoMono-Light'), url(../fonts/Roboto-Mono/Roboto-Mono-Light.ttf) format('truetype'), url(../fonts/Roboto-Mono/Roboto-Mono-Light.woff) format('woff'), url(../fonts/Roboto-Mono/Roboto-Mono-Light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Roboto-Mono/Roboto-Mono.eot);
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(../fonts/Roboto-Mono/Roboto-Mono.svg#RobotoMono) format('svg'), url(../fonts/Roboto-Mono/Roboto-Mono.eot?#iefix) format('embedded-opentype'), url(../fonts/Roboto-Mono/Roboto-Mono.ttf) format('truetype'), url(../fonts/Roboto-Mono/Roboto-Mono.woff) format('woff'), url(../fonts/Roboto-Mono/Roboto-Mono.woff2) format('woff2');
+}
+

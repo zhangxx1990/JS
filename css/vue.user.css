@@ -1,0 +1,8 @@
+.sidebar .sidebar-nav strong  {
+  list-style: none;
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 1.17em;
+  display: inline-block;
+  margin-top: 15px;
+}

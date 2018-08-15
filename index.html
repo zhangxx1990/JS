@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>Js笔记</title>
+  <title>JS 笔记</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <link rel="shortcut icon" href="./media/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <link rel="stylesheet" href="./css/index.css">
@@ -14,10 +13,9 @@
 
 <body>
   <div id="app"></div>
-  <script src="./js/docsify-edit-on-github.js"></script>
   <script>
     window.$docsify = {
-      name: 'Js笔记',
+      name: 'JS 笔记',
       subMaxLevel: 2,
       formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
       auto2top: true,
@@ -26,33 +24,13 @@
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- 图片缩放 -->
+  <script src="https://cdn.bootcss.com/docsify/4.5.7/plugins/zoom-image.min.js"></script>
+  <!-- 搜索 -->
+  <script src="https://cdn.bootcss.com/docsify/4.5.7/plugins/search.min.js"></script>
+  <script src="js/prism-bash.js"></script>
   <script>
-    window.$docsify = {
-      name: 'js笔记',
-      formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
-      repo: 'https://github.com/zhangxx1990/JS',
-      basePath: './docs/',
-      loadSidebar: '../_sidebar.md',
-      coverpage: '../_coverpage.md',
-      subMaxLevel: 2,
-      autoHeader: true,
-      homepage: '../README.md',
-      auto2top: true,
-      plugins: [
-        EditOnGithubPlugin.create('https://github.com/zhangxx1990/JS')
-      ],
-      search: {
-        maxAge: 86400000,
-        paths: 'auto',
-        depth: 3
-      }
-    }
-  </script>
-  <script src="./js/docsify.min.js"></script>
-  <script src="./js/zoom-image.min.js"></script>
-  <script src="./js/search.min.js"></script>
-  <script src="./js/prism-bash.js"></script>
-  <script>
+    // 添加 bash 语法高亮别名 shell
     Prism.languages.shell = Prism.languages.bash
   </script>
 </body>
